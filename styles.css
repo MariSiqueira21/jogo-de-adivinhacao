@@ -208,19 +208,25 @@ button:hover {
     }
     .container {
         max-width: 600px;
+        height: 200px;
         padding: 24px;
     }
     
     label {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     select {
         font-size: 16px;
-        padding: 12px;
+        padding: 6px 12px;
         margin-bottom: 24px;
+        width: 150px;
+    } 
+
+    #difficulty {
+        font-size: 16px;
     }
-    
+
     p {
         font-size: 20px;
         margin-bottom: 24px;
