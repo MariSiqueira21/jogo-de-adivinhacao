@@ -5,9 +5,9 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 32px;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
     color: #333;
 }
 .container {
@@ -17,7 +17,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 24px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -38,40 +38,40 @@ h1 {
 }
 
 label {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: bold;
     color: #333;
 }
 
 select {
-    font-size: 1rem;
-    padding: 0.8rem;
+    font-size: 16px;
+    padding: 12px;
     border: 1px solid #333;
     border-radius: 5px;
     background-color: #ffffff;
     color: #333;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 20px;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
     color: #333;
 }
 
 input {
-    font-size: 1rem;
-    padding: 0.6rem;
+    font-size: 16px;
+    padding: 10px;
     border: 1px solid #333;
-    margin:0 1rem;
-    padding: 0.6rem;
+    margin:0 16px;
+    padding: 10px;
     border-radius: 5px;
 }
 
 button {
-    font-size: 1rem;
-    padding: 1rem 1.5rem;
+    font-size: 16px;
+    padding: 16px 24px;
     background-color: #333;
     color: #ffffff;
     cursor: pointer;
@@ -85,8 +85,8 @@ button:hover {
 }
 
 #result {
-    font-size: 1.3rem;
-    margin-top: 1.5rem;
+    font-size: 20px;
+    margin-top: 24px;
     color: #c923ee;
 }
 
@@ -100,3 +100,148 @@ button:hover {
 }
 
 
+
+@media (max-width: 400px) {
+
+    input {
+        width: 150px;
+    }
+
+    #guess {
+        font-size: 13px;
+    }
+ 
+            
+}
+
+@media (min-width: 1000px) {
+
+    .container {
+        max-width: 800px;
+        height: 300px;
+    }
+
+    label {
+        font-size: 30px;
+    }
+
+
+    select {
+        width: 200px;
+    }
+
+    #difficulty {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    option {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    p:first-child {
+        margin-bottom: 10px;
+    }
+
+    
+    input {
+        width: 300px;
+    }
+
+    #guess {
+        font-size: 27px;
+    }
+
+    button {
+        width: 130px;
+        font-size: 20px;
+    }
+
+    #result {
+        font-size: 26px;
+    }
+
+    #reset-btn {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+ 
+    
+}
+
+@media (min-width: 1200px) { 
+
+    
+    label {
+        font-size: 24px;
+    }
+
+    #difficulty {
+        font-size: 20px;
+    }
+
+    
+    #guess {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #reset-btn {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    
+    
+}
+
+@media (min-width: 1920px) { 
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+    .container {
+        max-width: 600px;
+        padding: 24px;
+    }
+    
+    label {
+        font-size: 16px;
+    }
+    
+    select {
+        font-size: 16px;
+        padding: 12px;
+        margin-bottom: 24px;
+    }
+    
+    p {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+    
+    input {
+        font-size: 16px;
+        padding: 10px;
+        margin:0 16px;
+        padding: 10px;
+    }
+    
+    button {
+        font-size: 16px;
+        padding: 16px 24px;
+    }
+    
+    #result {
+        font-size: 20px;
+        margin-top: 24px;
+    }
+   
+    
+}
